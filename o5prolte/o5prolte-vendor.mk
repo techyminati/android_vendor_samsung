@@ -168,7 +168,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/o5prolte/proprietary/vendor/lib/libtlc_comm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtlc_comm.so \
     vendor/samsung/o5prolte/proprietary/vendor/lib/libtlc_tz_ccm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtlc_tz_ccm.so \
     vendor/samsung/o5prolte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/samsung/o5prolte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
+    vendor/samsung/o5prolte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/o5prolte/proprietary/lib/hw/camera.vendor.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.exynos5.so \
+    vendor/samsung/o5prolte/proprietary/lib/hw/sensors.universal3475.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.universal3475.so \
+    vendor/samsung/o5prolte/proprietary/lib/libexynoscameraexternal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscameraexternal.so \
+    vendor/samsung/o5prolte/proprietary/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril-dsds.so \
+    vendor/samsung/o5prolte/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so \
+    vendor/samsung/o5prolte/proprietary/lib/libcutils_symbol.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcutils_symbol.so
 
 PRODUCT_PACKAGES += \
     ImsSettings
