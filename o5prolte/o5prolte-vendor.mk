@@ -175,6 +175,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/o5prolte/proprietary/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril-dsds.so \
     vendor/samsung/o5prolte/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so \
     vendor/samsung/o5prolte/proprietary/lib/libcutils_symbol.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcutils_symbol.so
-
-PRODUCT_PACKAGES += \
-    ImsSettings
