@@ -174,5 +174,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/o5prolte/proprietary/lib/libexynoscameraexternal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynoscameraexternal.so \
     vendor/samsung/o5prolte/proprietary/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril-dsds.so \
     vendor/samsung/o5prolte/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so \
-    vendor/samsung/o5prolte/proprietary/lib/libprotobuf-cpp-full-old.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-full-old.so \
     vendor/samsung/o5prolte/proprietary/lib/libcutils_symbol.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcutils_symbol.so
